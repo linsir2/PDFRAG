@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+llm_env1/  # 你的conda环境名
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 数据库
+my_db/
+chroma.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 大型文件
+*.zip
+*.tar.gz
